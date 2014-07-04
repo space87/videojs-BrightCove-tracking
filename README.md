@@ -50,3 +50,7 @@ currently this plugin will track:
 
 - [ ] Allow custom user tracking to the videos
 - [ ] Track the geoloaction data of the viewer and report it
+
+
+#####
+Implemneted at ao.com
