@@ -51,7 +51,6 @@ videojs.plugin("aoBcTracking", function (options) {
 
             postData(urlStr);
 
-
             return;
         };
         timeUpdate = function (evt) {

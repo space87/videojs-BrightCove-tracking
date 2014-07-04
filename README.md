@@ -7,12 +7,12 @@ Download [videojs](http://www.videojs.com/) and [videojs.brightcove tracking](ht
 
 On your page include the plugin file.
 ```html
-<script src="dist/videojs.ga.min.js"></script>
+<script src="dist/videoTracking.min.js"></script>
 ```
 
-_Please note that the videojs.js file needs to be loaded prior to this plugin
+-Please note that the videojs.js file needs to be loaded prior to this plugin
 
-_Also this can only be used if you call videojs dynamically
+-Also this can only be used if you call videojs dynamically
 
 you Call the plugin like this
 ```javascript
@@ -26,7 +26,7 @@ videojs('video', {plugins:{aoBcTracking:{accountID:'Your brightcove accound id',
 
 ```
 
-_there is no need to call .play() as the plugin will call that to allow tracking of events.
+-There is no need to call .play() as the plugin will call that to allow tracking of events.
 
 
 ## Options
@@ -40,9 +40,9 @@ Also to allow BrightCove to see what video it is tracking you need to put in the
 ####events that are tracked
 currently this plugin will track:
 
-"player_load"
-"video_impression"
-"video_view"
+"player_load",
+"video_impression",
+"video_view",
 "view_engagement" which reports every 10 seconds allowing the collection of engagement data
 
 
